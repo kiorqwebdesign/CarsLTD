@@ -15,3 +15,4 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-sprockets', '~> 4.0.0.rc'
 gem 'sprockets-es6'
 gem "jquery-middleman"
+gem "middleman-minify-html"

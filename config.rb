@@ -37,20 +37,14 @@ end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
+
 end
 
-# es6
 require 'sprockets/es6'
 activate :sprockets do |s|
   s.supported_output_extensions << '.es6'
 end
-
-page "/services/*", :layout => "outside-layout"
-page "/about/*", :layout => "outside-layout"
-page "/repair/*", :layout => "outside-layout"
-page "/cars/*", :layout => "outside-layout"
-page "/find_us/*", :layout => "outside-layout"

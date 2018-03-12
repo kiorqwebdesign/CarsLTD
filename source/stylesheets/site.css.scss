@@ -1,30 +1,11 @@
 @charset "utf-8";
 
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+@import url('https://fonts.googleapis.com/css?family=Courgette');
 
-$main-font: 'Lato', sans-serif;
 $main-color: #073870;
-
-$text-color: #61657F;
-$header-color: #333;
-
+$dark-color: #333333;
+$font-family: 'Roboto', sans-serif;
 
 @import "main";
-@import "header";
-@import "welcome";
-@import "services";
-@import "brands";
-@import "testimony";
-@import "newsletter";
-@import "footer";
-
-@import "mobile";
-
-@import "outside";
-@import "outside/meettheteam";
-@import "outside/services";
-@import "outside/cars";
-@import "outside/repair";
-
-
-@import "noti/basic";
+@import "cs";
