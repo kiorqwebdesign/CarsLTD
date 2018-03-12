@@ -1,0 +1,43 @@
+.car-list {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 130px;
+
+    .car {
+        display: inline-block;
+        width: 230px;
+        margin: 0px 21px 80px 21px;
+
+        .img-preview {
+            background-position: center;
+            background-size: cover;
+            float: left;
+            width: 100%;
+            padding-top: calc(100% - 70px);
+            border-radius: 4px;
+        }
+
+        .header {
+            float: left;
+            margin: 20px 0px 0px 0px;
+            text-align: center;
+            font-family: $main-font;
+            color: $main-color;
+            width: 100%;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .text {
+            float: left;
+            margin: 5px 0px 0px 0px;
+            text-align: center;
+            font-family: $main-font;
+            color: $text-color;
+            width: 100%;
+            font-size: 1em;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+<div data-notification-timeout="<%= timer %>" class="notification-box">
+    <div class="notification-close">
+        <div class="x x1"></div>
+        <div class="x x2"></div>
+    </div>
+    <h2 class="notification-title"><%= title %></h2>
+    <p class="notification-description"><%= description %></p>
+
+    <% if phone == true %>       
+        <a href="tel:345-949-7135" class="notification-detail"><span class="ico ico-phone"></span> (345) 949-7135</a>
+    <% end %>
+    <% if email %>       
+        <a href="mailto:info@carsltd.ky" class="notification-detail"><span class="ico ico-email"></span> info@carsltd.ky</a>
+    <% end %>
+    <% if find_us %>       
+        <a href="./../find_us" class="notification-detail link"><span class="ico ico-location"></span> Visit Us</a>
+    <% end %>
+</div>
